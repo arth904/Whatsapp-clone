@@ -1,0 +1,11 @@
+.app {
+    display: flex;
+}
+
+.app__header {
+    flex: 0.3;
+}
+
+.app__body {
+    flex: 0.7;
+}
