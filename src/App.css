@@ -1,11 +1,12 @@
 .app {
-    display: flex;
+  display: flex;
+  max-height: 100vh;
 }
 
 .app__header {
-    flex: 0.3;
+  flex: 0.3;
 }
 
 .app__body {
-    flex: 0.7;
+  flex: 0.7;
 }

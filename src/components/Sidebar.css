@@ -1,14 +1,15 @@
 .sidebar {
-  background-color: #ededed;
   display: flex;
   flex-direction: column;
+  max-height: 100vh;
+  border-right: 1px solid lightgray;
 }
 
 .sidebar__header {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  border-right: 1px solid lightgray;
+  padding: 10px;
+  background-color: #ededed;
 }
 
 .sidebar__headerRight {
@@ -44,4 +45,8 @@
 .sidebar__searchContainer .MuiSvgIcon-root {
   color: gray;
   padding: 10px;
+}
+
+.sidebar__chats {
+  overflow: auto;
 }
