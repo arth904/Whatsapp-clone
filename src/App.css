@@ -1,12 +1,14 @@
 .app {
-  display: flex;
-  max-height: 100vh;
-}
-
-.app__header {
-  flex: 0.3;
+  display: grid;
+  place-items: center;
+  background-color: whitesmoke;
+  height: 100vh;
 }
 
 .app__body {
-  flex: 0.7;
+  display: flex;
+  background-color: #fff;
+  height: 95vh;
+  width: 95vw;
+  box-shadow: -1px 4px 20px 16px rgba(0, 0, 0, 0.2);
 }
